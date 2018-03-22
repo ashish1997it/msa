@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 
-public class form2 extends AppCompatActivity {
+public class UserLoginScr extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

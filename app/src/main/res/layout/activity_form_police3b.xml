@@ -56,7 +56,7 @@
         android:layout_height="30dp"
         android:layout_alignStart="@+id/editText"
         android:layout_below="@+id/editText"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_eid2"
         android:ems="10"
@@ -71,11 +71,26 @@
         android:layout_height="30dp"
         android:layout_alignStart="@+id/editText2"
         android:layout_below="@+id/editText2"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_con2"
         android:ems="10"
         android:hint=" *contact Number"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editText4b"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="15dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_aadid3"
+        android:ems="10"
+        android:hint=" *AadharID"
         android:inputType="textPersonName"
         android:textColor="@android:color/white"
         android:textSize="22dp" />
@@ -85,14 +100,14 @@
         android:id="@+id/editText4"
         android:layout_width="250dp"
         android:layout_height="30dp"
-        android:layout_alignStart="@+id/editText3"
-        android:layout_below="@+id/editText3"
-        android:layout_marginTop="30dp"
+        android:layout_above="@+id/cardView2"
+        android:layout_alignStart="@+id/editText4b"
+        android:layout_marginBottom="16dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/loc2"
         android:ems="10"
         android:hint=" *Address"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:textColor="@android:color/white"
         android:textSize="22dp" />
 
@@ -110,8 +125,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignStart="@+id/cardView2"
-            android:layout_alignTop="@+id/cardView2">
+            android:layout_above="@+id/textView"
+            android:layout_alignStart="@+id/cardView2">
 
             <TextView
                 android:id="@+id/textView5"
